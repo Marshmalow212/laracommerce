@@ -1,31 +1,3 @@
-<?php
-
-// use Crud\CartController;
-// $cart_items = 0;
-// $uid = $_SESSION['user_id']??null;
-// $carts = new CartController();
-// $cart_res =count( $carts->showMyCart($uid))??0;
-// //echo $cart_res;   
-// $cart_total_amount = $carts->myTotalAmount($uid)??0;
-// $cart_total_amount = number_format((float)$cart_total_amount,2,'.','');
-// //echo $cart_total_amount;
-?>
-
-<?php
-// if(array_key_exists('message',$_SESSION) && $_SESSION['message']!=''):
-    ?>
-    <!-- <div class="alert alert-success">
-
-        <div>
-            <?php
-            // echo $_SESSION['message'];
-            // $_SESSION['message']="";
-            ?>
-        </div>
-    </div> -->
-<?php
-// endif;
-?>
 
 
 <!--markup for header-->

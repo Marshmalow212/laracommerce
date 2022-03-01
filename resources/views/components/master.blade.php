@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<x-head/>
+@include('components.head')
 <body>
-    <x-header/>
-    
-    <main class="content">
+    @include('components.header')
+
         
-        {{$slot}}
-    </main>
+    @yield('content')
+
     
-    <x-scripts/>
+    @include('components.scripts')
 </body>
 </html>
